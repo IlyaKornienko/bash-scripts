@@ -1,0 +1,20 @@
+#!/bin/bash
+
+SIZE=2
+case $SIZE in
+
+1)
+echo "You have space for 2400 photos"
+;;
+2)
+echo "You have space for 1200 photos"
+;;
+3)
+echo "You have space for 800 photos"
+;;
+4)
+echo "You have space for 600 photos"
+;;
+*)
+echo "Sorry, I am your computer and is not possible for me to think so much!"
+esac

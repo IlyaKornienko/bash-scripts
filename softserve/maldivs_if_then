@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+#Check money
+echo -n "How much money do you have: "
+read MONEY
+
+if [ $MONEY -gt 2000 ]
+then
+  echo "Go and have fun, there!!!"
+else
+  echo "Stay here and study bash"
+fi

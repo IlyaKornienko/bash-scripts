@@ -1,0 +1,8 @@
+#!/bin/bash
+
+i=1
+until [ $i -le "20" ]
+do
+echo "Photo $i"
+i=$(( i + 1 ))
+done
